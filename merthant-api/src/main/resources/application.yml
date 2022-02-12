@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: db, core, wx
+  messages:
+    encoding: UTF-8
+
+server:
+  port: 8082
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.merchant.api:  DEBUG
+    org.registerCompany: ERROR
+
+#swagger:
+#  production: false
