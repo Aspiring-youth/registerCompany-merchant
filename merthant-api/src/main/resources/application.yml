@@ -10,9 +10,9 @@ server:
 logging:
   level:
     root: DEBUG
-    org.springframework:  ERROR
-    org.mybatis:  ERROR
-    org.merchant.api:  DEBUG
+    org.springframework: ERROR
+    org.mybatis: ERROR
+    org.merchant.api: DEBUG
     org.registerCompany: ERROR
 
 #swagger:
